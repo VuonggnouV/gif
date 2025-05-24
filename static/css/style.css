@@ -23,8 +23,8 @@ body {
 
 .gift-img {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
   object-fit: contain;
   top: 230px;
   transition: all 0.8s ease;
@@ -35,24 +35,24 @@ body {
 /* Bay lên: hình 1 cao hơn, hình 2 thấp hơn */
 #img1.fly-up {
   top: 5px;
-  left: 5px;
+  left: 50px;
 }
 
 #img2.fly-up {
   top: 25px;
-  left: 65px;
+  left: 110px;
 }
 
 /* Bay ngang vào nhau trên cùng một độ cao */
 #img1.fly-in {
   top: 5px;    /* cùng độ cao */
-  left: 45px;   /* bên trái */
+  left: 80px;   /* bên trái */
   transform: none;
 }
 
 #img2.fly-in {
   top: 25px;    /* cùng độ cao */
-  left: 45px;  /* bên phải */
+  left: 80px;  /* bên phải */
   transform: none;
 }
 
