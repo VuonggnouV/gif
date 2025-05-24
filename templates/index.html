@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gift Animation</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container" onclick="startAnimation()">
+    <img src="{{ url_for('static', filename='img/box.png') }}" id="gift-box" class="box">
+    <img src="{{ url_for('static', filename='img/img1.png') }}" id="img1" class="gift-img hidden">
+    <img src="{{ url_for('static', filename='img/img2.png') }}" id="img2" class="gift-img hidden">
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
